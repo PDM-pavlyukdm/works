@@ -741,7 +741,7 @@ body .swiper-button-next:after {
 .blog-item_content {
   max-width: 450px;
   color: #fcfcfc; }
-  .blog-item_content date {
+  .blog-item_content time {
     position: relative;
     bottom: 0;
     display: inline-block;
