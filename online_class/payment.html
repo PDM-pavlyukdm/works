@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="">
+	<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Title</title>
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/libs.min.css">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+		integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+	<div class="wrapper">
+	<header class="header">
+		<div class="container">
+			<div class="header__body">
+				<a href="/index.html" class="header__logo">
+					<img src="../img/logo.svg" alt="logo">
+				</a>
+				<div class="header__panel">
+					<div class="header__panel_wrapper">
+						<nav class="header__menu">
+							<ul class="header__list">
+								<div class="header__menu-item"><a href="/about-us.html" class="header__link">О нас</a></div>
+								<div class="header__menu-item"><a href="/blog.html" class="header__link">Новости</a></div>
+								<div class="header__menu-item parent-menu-item">
+									<a href="/course.html" class="header__link">Курсы и цены</a>
+									<div class="submenu">
+											<a href="/companies.html" class="header__link">Компаниям</a>
+											<a href="/payment.html" class="header__link">Оплата</a>
+											<a href="/vacancy.html" class="header__link">Вакансии</a>
+									</div>
+								</div>
+								<div class="header__menu-item"><a href="/rent.html" class="header__link">Аренда</a></div>
+								<div class="header__menu-item"><a href="/contacts.html" class="header__link">Контакты</a></div>
+						</ul>
+						</nav>
+						<a href="#" class="button">Бесплатный урок</a>
+						<div class="header__actions">
+							<div class="header__actions_item">
+								<a href="#" class="login">Войти</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="header__actions">
+					<div class="header__actions_item">
+						<a href="#" class="login"></a>
+					</div>
+
+
+
+					<div class="header__actions_item header__actions_item-lang">
+						<div class="language-selector__container">
+							<label>
+							 <select class="js_language_selector">
+								 <option value="#">RU</option>
+								 <option value="#">EN</option>
+							 </select>
+						 </label>
+					 </div>
+					</div>
+
+
+
+
+				</div>
+				<div  id="header__burger" class="header__burger">
+					<span></span>
+				</div>
+			</div>
+		</div>
+	</header>
+
+
+	<main class="main nomargin">
+		<section class="page-title bg_overlay_main">
+	<div class="container">
+		<div class="page-title__body">
+			<div class="page-title__content">
+				<h1 class="title">Оплата</h1>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="sec-payment-description content">
+	<div class="container">
+		<div class="payment-description">
+			<div class="payment-description__head"><strong>Мы предлагаем 3 пакета занятий:</strong></div>
+			<div class="payment-description__list">
+				<div class="payment-description__list-item tooltip ">
+					<span>Classic</span><strong>i</strong>
+					<span class="tooltiptext">Это тултип в котором краткое описание классического пакета, со всеми его ценами, продолжительность ю прочими плюшками</span>
+				</div>
+				<div class="payment-description__list-item tooltip ">
+					<span>Combo</span><strong>i</strong>
+					<span class="tooltiptext">Это тултип в котором краткое описание комбинированого пакета, со всеми его ценами, продолжительность ю прочими плюшками</span>
+
+				</div>
+				<div class="payment-description__list-item tooltip ">
+					<span>Premium</span><strong>i</strong>
+					<span class="tooltiptext">Это тултип в котором краткое описание премиум пакета, со всеми его ценами, продолжительность ю прочими плюшками</span>
+				</div>
+			</div>
+			<p>Они доступны как для групп по 2-3 человека, так и для индивидуальных занятий английским. Можно приобретать
+				занятия по одному. Программа курса зависит от Ваших целей, о которых мы подробно поговорим на первом бесплатном
+				уроке. Он предоставляется всем новым пользователям сайта! Кроме того, у нас есть предложения для корпоративного
+				обучения английскому и SpeakEasy — клуб разговорного английского с носителем языка по выходным.</p>
+		</div>
+	</div>
+</section>
+
+<section class="sec-payment-methods sec_std_pad bg_overlay_content">
+	<div class="container">
+		<div class="payment-methods">
+			<div class="payment-methods__head">
+				<h3 class="title">3 способа оплатить онлайн-занятия</h3>
+			</div>
+			<div class="payment-methods__body row">
+
+				<div class="payment-methods__item col">
+					<div class="payment-methods__item-head">
+						<div class="number">1</div>
+						<h5 class="title">Я работаю в Беларуси</h5>
+				</div>
+				<div class="payment-methods__item-content">
+					<p>
+						Зарегистрируйтесь у нас на сайте и оплатите занятия онлайн с платежной системой bePaid.by. Данные Вашей карточки надежно защищены
+					</p>
+					<a href="#popup_registration" class="button popup-modal">регистрация</a>
+				</div>
+			</div>
+				<div class="payment-methods__item col">
+					<div class="payment-methods__item-head">
+						<div class="number">2</div>
+						<h5 class="title">Оплата в мессенджере</h5>
+				</div>
+				<div class="payment-methods__item-content">
+					<p>Вы можете оплатить любой пакет или несколько отдельных занятий в мессенджерах Facebook, Viber или Telegram. Свяжитесь с нами, чтобы сделать это</p>
+					<div class="socials">
+						<ul class="socials__list">
+								<li class="socials__item">
+									<a href="#" class="socials__link"><i class="fa fa-vk"></i></a>
+								</li>
+								<li class="socials__item">
+									<a href="#" class="socials__link"><i class="fa fa-facebook"></i></a>
+								</li>
+								<li class="socials__item">
+									<a href="#" class="socials__link"><i class="fa fa-instagram"></i></a>
+								</li>
+								<li class="socials__item">
+									<a href="#" class="socials__link"><i class="fa fa-youtube"></i></a>
+								</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+				<div class="payment-methods__item col">
+					<div class="payment-methods__item-head">
+						<div class="number">3</div>
+						<h5 class="title">Оплата в банке</h5>
+				</div>
+				<div class="payment-methods__item-content">
+					<p>Зарегистрируйтесь на сайте, закажите курс, а потом оплатите его в банке по нашим реквизитам и пришлите нам копию платежного документа</p>
+					<a href="#" class="read_more">Показать реквизиты</a>
+				</div>
+			</div>
+
+		</div>
+	</div>
+	</div>
+</section>
+
+
+
+
+<section class="courses courses-w-price sec_std_pad">
+	<div class="container">
+		<div class="courses_head">
+			<h3 class="title">Индивидуальные и груповые <span>курсы английского</span>
+			</h3>
+			<p>Вы можете получить сертификат после прохождения 4 курсов</p>
+			<div class="courses__currency-select">
+				<label for="currencies">Оплата в</label>
+					<select name="currencies" id="currencies">
+						<option value="eur" data-currency="eur" >&euro;</option>
+						<option value="usd" data-currency="usd">$</option>
+						<option selected="selected" value="rub" data-currency="rub">&#8381;</option>
+					</select>
+			</div>
+		</div>
+		<div class="courses__body row">
+
+			<div class="courses__item col">
+				<div class="courses__item_body">
+					<div class="courses__item_top">
+						<div class="courses_item_media">
+							<img src="../img/calendar-2.png" alt="">
+						</div>
+						<div class="courses_item_heading">
+							<h5 class="title">Разговорный английский</h5>
+							<span class="courses_type">Групповое</span>
+						</div>
+					</div>
+					<div class="courses__item_content">
+						<div class="courses__item-pricing">
+							<div class="price-lesson">
+								<span class="price eur">8.5</span>
+								<span class="price usd">10</span>
+								<span class="price rub">668.8</span>
+								<span>
+									<span class="currency eur"> &euro;</span>
+									<span class="currency usd"> $</span>
+									<span class="currency rub"> ₽</span>
+									/урок</span>
+							</div>
+							<div class="price-course">(
+								<span class="price eur">127.5</span>
+								<span class="price usd">150</span>
+								<span class="price rub">10700.8</span>
+								<span class="currency eur"> &euro;</span>
+								<span class="currency usd"> $</span>
+								<span class="currency rub"> ₽</span>
+								 за курс)</div>
+						</div>
+						<ul class="list-checked">
+							<li>сможете свободно общаться с иностранцами, лаконично выражать свои мысли</li>
+							<li>будете комфортно чувствовать себя в путешествиях</li>
+							<li>преодолеете психологический барьер общения на английском</li>
+							<li>обогатите активный словарный запас</li>
+						</ul>
+					</div>
+					<div class="courses__item_footer">
+						<a href="#" class="read_more">Подробнее</a>
+						<a href="#popup_connect" class="button popup-modal">записаться</a>
+					</div>
+
+				</div>
+			</div>
+			<div class="courses__item col">
+				<div class="courses__item_body">
+					<div class="courses__item_top">
+						<div class="courses_item_media">
+							<img src="../img/icon-1.png" alt="">
+						</div>
+						<div class="courses_item_heading">
+							<h5 class="title">Английский для бизнеса</h5>
+							<span class="courses_type">Индивидуальное</span>
+						</div>
+					</div>
+					<div class="courses__item_content">
+						<div class="courses__item-pricing">
+							<div class="price-lesson">
+								<span class="price eur">8.5</span>
+								<span class="price usd">10</span>
+								<span class="price rub">668.8</span>
+								<span>
+									<span class="currency eur"> &euro;</span>
+									<span class="currency usd"> $</span>
+									<span class="currency rub"> ₽</span>
+									/урок</span>
+							</div>
+							<div class="price-course">(
+								<span class="price eur">127.5</span>
+								<span class="price usd">150</span>
+								<span class="price rub">10700.8</span>
+								<span class="currency eur"> &euro;</span>
+								<span class="currency usd"> $</span>
+								<span class="currency rub"> ₽</span>
+								 за курс)</div>
+						</div>
+						<ul class="list-checked">
+							<li>вы будете полноценным участником международных переговоров, конференций, семинаров, выставок</li>
+							<li>научитесь вести деловую переписку на английском</li>
+							<li>расширите запас деловой лексики</li>
+							<li>найдёте клиентов и партнеров на зарубежном рынке</li>
+						</ul>
+					</div>
+					<div class="courses__item_footer">
+						<a href="#" class="read_more">Подробнее</a>
+						<a href="#popup_connect" class="button popup-modal">записаться</a>
+					</div>
+
+				</div>
+			</div>
+			<div class="courses__item col">
+				<div class="courses__item_body">
+					<div class="courses__item_top">
+						<div class="courses_item_media">
+							<img src="../img/calendar-3.png" alt="">
+						</div>
+						<div class="courses_item_heading">
+							<h5 class="title">Английский с нуля</h5>
+							<span class="courses_type">Групповое</span>
+						</div>
+					</div>
+					<div class="courses__item_content">
+						<div class="courses__item-pricing">
+							<div class="price-lesson">
+								<span class="price eur">8.5</span>
+								<span class="price usd">10</span>
+								<span class="price rub">668.8</span>
+								<span>
+									<span class="currency eur"> &euro;</span>
+									<span class="currency usd"> $</span>
+									<span class="currency rub"> ₽</span>
+									/урок</span>
+							</div>
+							<div class="price-course">(
+								<span class="price eur">127.5</span>
+								<span class="price usd">150</span>
+								<span class="price rub">10700.8</span>
+								<span class="currency eur"> &euro;</span>
+								<span class="currency usd"> $</span>
+								<span class="currency rub"> ₽</span>
+								 за курс)</div>
+						</div>
+						<ul class="list-checked">
+							<li>не потеряетесь и не умрете с голода за границей (сможете спросить дорогу, разобраться с меню, сделать
+								покупки)</li>
+							<li>улучшите произношение</li>
+							<li>заложите фундамент грамматики</li>
+							<li>начнете воспринимать английскую речь на слух</li>
+						</ul>
+					</div>
+					<div class="courses__item_footer">
+						<a href="#" class="read_more">Подробнее</a>
+						<a href="#popup_connect" class="button popup-modal">записаться</a>
+					</div>
+
+				</div>
+			</div>
+			<div class="courses__item col">
+				<div class="courses__item_body">
+					<div class="courses__item_top">
+						<div class="courses_item_media">
+							<img src="../img/icon-1.png" alt="">
+						</div>
+						<div class="courses_item_heading">
+							<h5 class="title">Английский для школьников</h5>
+							<span class="courses_type">Групповое</span>
+						</div>
+					</div>
+					<div class="courses__item_content">
+						<div class="courses__item-pricing">
+							<div class="price-lesson">
+								<span class="price eur">8.5</span>
+								<span class="price usd">10</span>
+								<span class="price rub">668.8</span>
+								<span>
+									<span class="currency eur"> &euro;</span>
+									<span class="currency usd"> $</span>
+									<span class="currency rub"> ₽</span>
+									/урок</span>
+							</div>
+							<div class="price-course">(
+								<span class="price eur">127.5</span>
+								<span class="price usd">150</span>
+								<span class="price rub">10700.8</span>
+								<span class="currency eur"> &euro;</span>
+								<span class="currency usd"> $</span>
+								<span class="currency rub"> ₽</span>
+								 за курс)</div>
+						</div>
+						<ul class="list-checked">
+							<li>восполните пробелы школьной программы</li>
+							<li>восполните пробелы школьной программы</li>
+							<li>подготовитесь к поступлению в престижный вуз</li>
+							<li>усовершенствуете навыки письма на английском</li>
+						</ul>
+					</div>
+					<div class="courses__item_footer">
+						<a href="#" class="read_more">Подробнее</a>
+						<a href="#popup_connect" class="button popup-modal">записаться</a>
+					</div>
+
+				</div>
+			</div>
+			<div class="courses__item col">
+				<div class="courses__item_body">
+					<div class="courses__item_top">
+						<div class="courses_item_media">
+							<img src="../img/icon-1.png" alt="">
+						</div>
+						<div class="courses_item_heading">
+							<h5 class="title">Английский для экзаменов</h5>
+							<span class="courses_type">Индивидуальное</span>
+						</div>
+					</div>
+					<div class="courses__item_content">
+						<div class="courses__item-pricing">
+							<div class="price-lesson">
+								<span class="price eur">8.5</span>
+								<span class="price usd">10</span>
+								<span class="price rub">668.8</span>
+								<span>
+									<span class="currency eur"> &euro;</span>
+									<span class="currency usd"> $</span>
+									<span class="currency rub"> ₽</span>
+									/урок</span>
+							</div>
+							<div class="price-course">(
+								<span class="price eur">127.5</span>
+								<span class="price usd">150</span>
+								<span class="price rub">10700.8</span>
+								<span class="currency eur"> &euro;</span>
+								<span class="currency usd"> $</span>
+								<span class="currency rub"> ₽</span>
+								 за курс)</div>
+						</div>
+						<ul class="list-checked">
+							<li>подготовитесь к международным экзаменам (IELTS, TOEFL, FCE, CAE) письменная и устная часть, чтение и
+								аудирование</li>
+							<li>подготовитесь к вступительным экзаменам (ЦТ, ЕГЭ и т.д.)</li>
+							<li>разберете формат экзамена</li>
+							<li>расширите словарный запас</li>
+						</ul>
+					</div>
+					<div class="courses__item_footer">
+						<a href="#" class="read_more">Подробнее</a>
+						<a href="#popup_connect" class="button popup-modal">записаться</a>
+					</div>
+
+				</div>
+			</div>
+			<div class="courses__item col">
+				<div class="courses__item_body">
+					<div class="courses__item_top">
+						<div class="courses_item_media">
+							<img src="../img/icon-1.png" alt="">
+						</div>
+						<div class="courses_item_heading">
+							<h5 class="title">Английский с носителем</h5>
+							<span class="courses_type">Индивидуальное</span>
+						</div>
+					</div>
+					<div class="courses__item_content">
+						<div class="courses__item-pricing">
+							<div class="price-lesson">
+								<span class="price eur">8.5</span>
+								<span class="price usd">10</span>
+								<span class="price rub">668.8</span>
+								<span>
+									<span class="currency eur"> &euro;</span>
+									<span class="currency usd"> $</span>
+									<span class="currency rub"> ₽</span>
+									/урок</span>
+							</div>
+							<div class="price-course">(
+								<span class="price eur">127.5</span>
+								<span class="price usd">150</span>
+								<span class="price rub">10700.8</span>
+								<span class="currency eur"> &euro;</span>
+								<span class="currency usd"> $</span>
+								<span class="currency rub"> ₽</span>
+								 за курс)</div>
+						</div>
+						<ul class="list-checked">
+							<li>преодолеете страх общения с настоящим носителем</li>
+							<li>углубите понимание языка, начнете думать на языке</li>
+							<li>приобретете лёгкость общения</li>
+							<li>научитесь понимать английский юмор</li>
+						</ul>
+					</div>
+					<div class="courses__item_footer">
+						<a href="#" class="read_more">Подробнее</a>
+						<a href="#popup_connect" class="button popup-modal">записаться</a>
+					</div>
+
+				</div>
+			</div>
+
+
+		</div>
+		<div class="courses__footer courses__footer--w-register">
+			<div class="courses__footer_overlay">
+				<img src="../img/boy.png" alt="">
+			</div>
+			<div class="courses__footer_content">
+				<ul>
+					<li>
+						— Преподаватель и программа подбираются для Вас на первом бесплатном занятии.
+					</li>
+					<li>
+						— Расписание занятий Вы составляете сами.
+					</li>
+					<li>
+						— Занятия можно переносить.
+					</li>
+					<li>
+						— Одно занятие длится 60 минут.
+					</li>
+				</ul>
+				<div class="cta-register bg_overlay_content">
+					<div class="cta-register__content cta-register__content--dark">
+						<p>
+
+							У нас есть другие варианты, включая предложения для корпоративного обучения. Чтобы просмотреть все опции и
+							выбрать курс, пожалуйста, зарегистрируйтесь
+
+						</p>
+					</div>
+					<div class="cta-register__register">
+						<a href="#popup_registration" class="button popup-modal">регистрация</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+	</main>
+	<footer class="footer">
+	<div class="container">
+		<div class="footer__wrap row">
+			<div class="footer__column col">
+				<div class="footer__links">
+					<ul class="links-list">
+						<li class="links-item"><a href="#" class="links-link">О нас</a></li>
+						<li class="links-item"><a href="#" class="links-link">Новости</a></li>
+						<li class="links-item"><a href="#" class="links-link">Аренда</a></li>
+						<li class="links-item"><a href="#" class="links-link">Контакты</a></li>
+						<li class="links-item"><a href="#" class="links-link">Вакансии</a></li>
+					</ul>
+				</div>
+				<a href="#" class="button">Пройти тест</a>
+			</div>
+			<div class="footer__column col">
+				<div class="footer__links">
+					<ul class="links-list">
+						<li class="links-item"><a href="#" class="links-link">Стоимость</a></li>
+						<li class="links-item"><a href="#" class="links-link">Компаниям</a></li>
+						<li class="links-item"><a href="#" class="links-link">Английский с нуля</a></li>
+						<li class="links-item"><a href="#" class="links-link">Разговорный английский</a></li>
+						<li class="links-item"><a href="#" class="links-link">Английский для бизнеса</a></li>
+						<li class="links-item"><a href="#" class="links-link">Английский для школьников</a></li>
+						<li class="links-item"><a href="#" class="links-link">Английский для экзаменов </a></li>
+						<li class="links-item"><a href="#" class="links-link">Английский с носителем</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="footer__column col">
+				<ul class="links-list">
+					<li class="links-item"><a href="#" class="links-link">SpeakEasy</a></li>
+					<li class="links-item"><a href="#" class="links-link">F.A.Q.</a></li>
+				</ul>
+				<ul class="links-list">
+					<li class="links-item"><a href="tel:+375291822611" class="links-link">+375 29 182-26-11</a></li>
+					<li class="links-item"><a href="tel:+375291822621" class="links-link">+375 29 182-26-21</a></li>
+					<li class="links-item"><a href="tel:+375291822644" class="links-link">+375 29 182-26-44 (компаниям)</a></li>
+				</ul>
+				<ul class="links-list">
+					<li class="links-item"><a href="#" class="links-link"></a></li>
+					<li class="links-item"><a href="mailto:speak@online-class.by" class="links-link">speak@online-class.by</a>
+					</li>
+				</ul>
+			</div>
+			<div class="footer__column col">
+				<div class="socials">
+					<ul class="socials__list">
+						<li class="socials__item">
+							<a href="#" class="socials__link"><i class="fa fa-vk"></i></a>
+						</li>
+						<li class="socials__item">
+							<a href="#" class="socials__link"><i class="fa fa-facebook"></i></a>
+						</li>
+						<li class="socials__item">
+							<a href="#" class="socials__link"><i class="fa fa-instagram"></i></a>
+						</li>
+						<li class="socials__item">
+							<a href="#" class="socials__link"><i class="fa fa-youtube"></i></a>
+						</li>
+					</ul>
+					<div class="socials__caption">Куча интересного тут:</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+</div>
+<!-- End of Wrapper -->
+<!-- Popup block -->
+<div class="hidden">
+	<div id="popup_registration" class="popup">
+		<div class="popup__body">
+			<div class="popup__content">
+				<div class="popup__title">
+					<h3>Регистрация</h3>
+				</div>
+				<div class="popup__text">
+					<form action="#" class="form">
+						<div class="form__group">
+							<div class="form__label">Ваше имя</div>
+							<input class="form__field" type="text" name="Name">
+							<div class="form__label">Фамилия</div>
+							<input class="form__field" type="text" name="Company">
+							<div class="form__label">E-mail</div>
+							<input class="form__field" type="email" name="Email">
+							<div class="form__label">Телефон</div>
+							<input class="form__field" type="tel" name="Phone">
+							<div class="form__label">Пароль</div>
+							<input class="form__field" type="password" name="Password">
+						</div>
+						<div class="form__group">
+							<div class="form__footer">
+								<span class="form__group form__group-agreement">Нажимая кнопку «Зарегистрироваться» Вы соглашаетесь
+									с политикой конфиденциальности сайта
+								</span>
+								<input class="button" type="submit" value="зарегистрироваться">
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<div id="popup_connect" class="popup">
+		<div class="popup__body">
+			<div class="popup__content">
+				<div class="popup__title">
+					<h3>Связаться</h3>
+				</div>
+				<div class="popup__text">
+					<form action="#" class="form">
+						<div class="form__group">
+							<div class="form__label">Ваше имя</div>
+							<input class="form__field" type="text" name="Name">
+							<div class="form__label">E-mail</div>
+							<input class="form__field" type="email" name="Email">
+							<div class="form__label">Телефон</div>
+							<input class="form__field" type="tel" name="Phone">
+							<div class="form__label">Сообщение</div>
+							<textarea class="form__field" rows="4"></textarea>
+						</div>
+						<div class="form__group">
+							<div class="form__footer">
+								<span class="form__group form__group-agreement">Нажимая кнопку «Отправить» Вы соглашаетесь с политикой
+									конфиденциальности сайта
+								</span>
+								<input class="button" type="submit" value="Отправить">
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- End of Popup block -->
+
+<script src="js/libs.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
