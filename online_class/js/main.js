@@ -281,8 +281,10 @@ $('.popup-modal').magnificPopup({
 
 $(function(){
 	var current = location.pathname;
+	console.log(current);
 	current = current.replace(/^\/|\/$/g, '');
 	current = decodeURIComponent(current);
+	console.log(current);
 	$('.header__menu .header__link').each(function(){
 			var $this = $(this);
 			if(($this.attr('href').indexOf(current) !== -1) && (current !== '')){
