@@ -20,20 +20,20 @@
 				<div class="header__panel">
 					<div class="header__panel_wrapper">
 						<nav class="header__menu">
-							<ul class="header__list">
+							<div class="header__list">
 								<div class="header__menu-item"><a href="about-us.html" class="header__link">О нас</a></div>
 								<div class="header__menu-item"><a href="blog.html" class="header__link">Новости</a></div>
 								<div class="header__menu-item parent-menu-item">
 									<a href="course.html" class="header__link">Курсы и цены</a>
 									<div class="submenu">
-											<a href="companies.html" class="header__link">Компаниям</a>
-											<a href="payment.html" class="header__link">Оплата</a>
-											<a href="vacancy.html" class="header__link">Вакансии</a>
+										<div class="header__menu-item"><a href="companies.html" class="header__link">Компаниям</a></div>
+											<div class="header__menu-item"><a href="payment.html" class="header__link">Оплата</a></div>
+											<div class="header__menu-item"><a href="vacancy.html" class="header__link">Вакансии</a></div>
 									</div>
 								</div>
 								<div class="header__menu-item"><a href="rent.html" class="header__link">Аренда</a></div>
 								<div class="header__menu-item"><a href="contacts.html" class="header__link">Контакты</a></div>
-						</ul>
+						</div>
 						</nav>
 						<a href="#" class="button">Бесплатный урок</a>
 						<div class="header__actions">
@@ -292,6 +292,7 @@
 <!-- End of Wrapper -->
 <!-- Popup block -->
 <div class="hidden">
+
 	<div id="popup_registration" class="popup">
 		<div class="popup__body">
 			<div class="popup__content">
@@ -299,19 +300,28 @@
 					<h3>Регистрация</h3>
 				</div>
 				<div class="popup__text">
-					<form action="#" class="form">
+					<form action="#" id="form_registration" class="form valid-form">
 						<div class="form__group">
 							<div class="form__label">Ваше имя</div>
-							<input class="form__field" type="text" name="Name">
-							<div class="form__label">Фамилия</div>
-							<input class="form__field" type="text" name="Company">
-							<div class="form__label">E-mail</div>
-							<input class="form__field" type="email" name="Email">
-							<div class="form__label">Телефон</div>
-							<input class="form__field" type="tel" name="Phone">
-							<div class="form__label">Пароль</div>
-							<input class="form__field" type="password" name="Password">
+							<input class="form__field" type="text" name="name" minlength="2" required>
 						</div>
+						<div class="form__group">
+							<div class="form__label">Фамилия</div>
+							<input class="form__field" type="text" name="lastname" minlength="2" required>
+						</div>
+						<div class="form__group">
+							<div class="form__label">E-mail</div>
+							<input class="form__field" type="email" name="email" required>
+						</div>
+						<div class="form__group">
+							<div class="form__label">Телефон</div>
+							<input class="form__field" type="tel" name="phone">
+						</div>
+						<div class="form__group">
+							<div class="form__label">Пароль</div>
+							<input class="form__field" type="password" name="password" minlength="6" maxlength="30" required>
+						</div>
+
 						<div class="form__group">
 							<div class="form__footer">
 								<span class="form__group form__group-agreement">Нажимая кнопку «Зарегистрироваться» Вы соглашаетесь
@@ -335,16 +345,22 @@
 					<h3>Связаться</h3>
 				</div>
 				<div class="popup__text">
-					<form action="#" class="form">
+					<form action="#" id="form_connect" class="form valid-form">
 						<div class="form__group">
 							<div class="form__label">Ваше имя</div>
-							<input class="form__field" type="text" name="Name">
+							<input class="form__field" type="text" name="name" minlength="2" required>
+						</div>
+						<div class="form__group">
 							<div class="form__label">E-mail</div>
-							<input class="form__field" type="email" name="Email">
+							<input class="form__field" type="email" name="email">
+						</div>
+						<div class="form__group">
 							<div class="form__label">Телефон</div>
-							<input class="form__field" type="tel" name="Phone">
+							<input class="form__field" type="tel" name="phone">
+						</div>
+						<div class="form__group">
 							<div class="form__label">Сообщение</div>
-							<textarea class="form__field" rows="4"></textarea>
+							<textarea class="form__field" rows="4" name="message"></textarea>
 						</div>
 						<div class="form__group">
 							<div class="form__footer">
@@ -359,6 +375,7 @@
 			</div>
 		</div>
 	</div>
+
 </div>
 
 <!-- End of Popup block -->

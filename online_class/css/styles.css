@@ -332,6 +332,10 @@ ul.list-checked li {
   display: inline-block;
 }
 
+.header__menu-item .subactive {
+  background: #97ac10;
+}
+
 .header__actions {
   display: flex;
   justify-content: space-around;
@@ -375,9 +379,9 @@ ul.list-checked li {
 .language-selector__container label:after {
   content: '';
   left: 48px;
-  top: 21px;
+  top: 26px;
   padding: 0 0 2px;
-  position: absolute;
+  position: relative;
   pointer-events: none;
   width: 0;
   height: 0;
@@ -411,6 +415,15 @@ ul.list-checked li {
 .login:hover {
   background: #D5EE32;
   box-shadow: 0px 9px 14px rgba(33, 36, 38, 0.2);
+}
+
+.header__panel .login {
+  border-radius: 0;
+}
+
+.header__panel .login:hover {
+  background: unset;
+  box-shadow: unset;
 }
 
 .lang {
@@ -2335,6 +2348,10 @@ ul.list-checked li {
   background: #CDE340;
 }
 
+.submenu .header__menu-item {
+  width: 100%;
+}
+
 .submenu .header__link {
   width: 100%;
 }
@@ -2533,6 +2550,12 @@ ul.list-checked li {
     transform: translateX(0);
     opacity: 1;
   }
+}
+
+form .error {
+  color: #fa1111;
+  font-size: 18px;
+  font-weight: 700;
 }
 
 @media screen and (min-width: 768px) {
