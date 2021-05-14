@@ -2620,6 +2620,10 @@ img.aling-left {
   .page-sidebar .filters-mobile-trigger {
     display: none;
   }
+
+  .sort-panel .sorting-mobile-trigger {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 992px) {
