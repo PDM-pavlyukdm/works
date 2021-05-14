@@ -179,7 +179,7 @@
 	});
 
 	//Mobile cats nav
-	$('.header-cats__inner').click(function () {
+	$('.header-cats__title').click(function () {
 		$('.mobile-cats-nav').addClass('active')
 	});
 	$(document).keydown(function(event) {

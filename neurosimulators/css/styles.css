@@ -2500,6 +2500,7 @@ a:hover {
   font-size: 18px;
   font-weight: 700;
   text-align: center;
+  cursor: pointer;
 }
 
 .mobile-cats-nav {
@@ -2977,10 +2978,6 @@ img.aling-left {
     font-size: 14px;
   }
 
-  .header-cats__inner {
-    cursor: pointer;
-  }
-
   .header-cats__list {
     display: none;
   }
@@ -3250,6 +3247,9 @@ img.aling-left {
 
   .header-cats__title {
     display: block;
+    height: 70px;
+    line-height: 70px;
+    width: 100%;
   }
 
   .sec-home-2 .products .col-3:nth-child(3) {
